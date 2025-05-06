@@ -1,6 +1,5 @@
 # Ningu (忍具) Framework
 
-**Version:** Automatically extracted from the script filename (e.g., `ningu-v1.0.py`)  
 **Author:** Garland Glessner  
 **License:** [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html)
 
@@ -21,7 +20,7 @@ It is ideal for creating toolkits, hacking suites, or internal developer dashboa
 - 🖥️ Dynamic tab-loading based on plugin contents.
 - 🎛️ Tabs aligned to the left for a clean UX.
 - ✅ Automatic resource cleanup on close (`cleanup()` method support).
-- 📛 Extracts program name and version from the script filename (e.g. `Ningu-v1.0.py`).
+- 📛 Extracts program name and version from the script filename (e.g. `ningu-v1.0.0.py`).
 
 ---
 
@@ -50,7 +49,7 @@ pip install PySide6
 ### ▶️ Run the App
 
 ```bash
-python Ningu-v1.0.py
+python ningu-v1.0.0.py
 ```
 
 The program will:
