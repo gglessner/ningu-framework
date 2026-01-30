@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 
 # Ningu (忍具) Framework
-# Copyright (C) 2025 <Your Name or Organization>
-#
+# Copyright (C) 2025 Garland Glessner - gglessner@gmail.com
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
