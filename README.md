@@ -85,6 +85,36 @@ class TabContent(QWidget):
 
 ---
 
+## 🤖 AI-Assisted Development
+
+This repository includes resources for AI-assisted module development.
+
+### Cursor IDE
+
+If you're using [Cursor](https://cursor.com/), the included AI skill at `.cursor/skills/ningu-framework/` is automatically discovered. Simply ask your AI assistant to help with Ningu module development, and it will use the skill to provide context-aware guidance.
+
+Example prompts:
+- "Create a new Ningu module for..."
+- "How do I add a Parley sub-module?"
+- "Help me implement a worker thread in my module"
+
+### Microsoft Visual Studio Code
+
+For VS Code users with Claude or other AI assistants, reference the comprehensive documentation directly:
+
+1. Open `NINGU_MODULE_DEVELOPMENT.md` in your editor
+2. Ask your AI assistant to read it: *"Read NINGU_MODULE_DEVELOPMENT.md and use it as a reference for helping me develop Ningu modules"*
+3. The AI will use the documentation to provide accurate guidance on module structure, sub-module APIs, Qt patterns, and more
+
+The `NINGU_MODULE_DEVELOPMENT.md` file contains complete documentation including:
+- Module structure and requirements
+- Sub-module development for Parley, SecretDecoderRing, and AuthCheck
+- Qt/PySide6 widget patterns and threading
+- Cross-platform development best practices
+- Complete code templates
+
+---
+
 ## 🧼 Graceful Shutdown
 
 * Pressing Ctrl-C from the terminal triggers a clean exit.
